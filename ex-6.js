@@ -5,7 +5,7 @@ function addFavoriteBook (bookName) {
 if (bookName.includes("Beauty")){
   favoriteBooks.push(bookName);
 }else{
-  console.log(bookName);
+  return 0;
 }
 
 }
